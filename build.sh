@@ -8,7 +8,7 @@ fi
 export BASE_USER=pi
 set -e
 
-git clone --depth 1 --branch v1.2.4 https://github.com/Rat-OS/RatOS.git
+git clone --depth 1 --branch v2.x https://github.com/Rat-OS/RatOS.git
 
 set -a
 source ./RatOS/src/config
